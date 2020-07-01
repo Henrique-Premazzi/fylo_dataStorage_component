@@ -23,6 +23,8 @@ body {
 
 section {
   height: 100%;
+
+
 }
 
 section ul {
@@ -40,11 +42,13 @@ section li {
   display: flex;
   justify-content:center;
   flex-wrap: wrap;
+
 }
 
 
 section li #box_one {
   background-color: #1e2c69;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
   /*
   border-left: 30px;
   border-right: 70px;
@@ -57,6 +61,7 @@ section li #box_one {
 
 section li #box_two {
   background-color: #1e2c69;
+  font-family: 'Raleway', sans-serif;
   /*
   border-width: 30px;
   border-bottom: 40px;
@@ -66,7 +71,7 @@ section li #box_two {
 }
 
 .one {
-  padding: 40px 20px 30px 40px;
+  padding: 40px 20px 40px 40px;
   width: 15vw;
   height: auto;
   border-radius: 10px 70px 10px 10px;
@@ -80,6 +85,7 @@ section li #box_two {
   border-radius: 10px;
   position: relative;
   top: 17px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 p#text {
@@ -144,7 +150,7 @@ p#info_2 {
 
   position: relative;
   left: 1000px;
-  top: 180px;
+  top: 165px;
 
 
 }
@@ -164,6 +170,21 @@ p#info_2 {
 	margin-bottom: -20px;
 }
 
+.one_eight_five {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.GB {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: gray;
+  font-size: 12px;
+  position: relative;
+  top: 12px;
+  left: 5px;
+}
 
 .two .storage {
 
@@ -192,6 +213,33 @@ p#info_2 {
   position: relative;
   bottom: 15px;
   right: 5px;
+}
+
+.two .storage_2 .storage_ball {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 95%;
+  top: 15%;
+  box-shadow: 2px 2px 2px gray;
+
+}
+
+#text {
+  display: inline;
+  color: white;
+}
+
+#text_bold {
+  font-weight: 700;
+  display: inline-block;
+  color: white;
+}
+
+.info {
+  font-weight: 700;
 }
 
 footer {
